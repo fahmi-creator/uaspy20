@@ -1,12 +1,3 @@
-class MainApp():
-    def __init__(self):
-        self.books = []
-
-
-if __name__ == "__main__":
-    app = MainApp()
-    app.run()
-
 from core.baseapp import BaseApp
     from core.search_helper import SearchHelper
     from data_model.author import Author
